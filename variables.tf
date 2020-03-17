@@ -9,3 +9,4 @@ variable "db_type" { default = "db.t2.micro" }
 variable "db_name" { default = "moodledb" }
 variable "db_user_name" { default = "moodleuser" }
 variable "db_pass" { default = "passworddb" }
+variable "dns_name" { default = "malyna.net" }

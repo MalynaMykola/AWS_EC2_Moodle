@@ -7,5 +7,6 @@ data "template_file" "script" {
     db_name        = var.db_name
     db_user_name   = var.db_user_name
     db_pass        = var.db_pass
+    dns_name       = var.dns_name
   }
 }

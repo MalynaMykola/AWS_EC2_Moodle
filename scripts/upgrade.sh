@@ -44,7 +44,7 @@ global \$CFG;
     'dbcollation' => 'utf8_general_ci',
   );
 
-\$CFG->wwwroot   = 'http://${elb_endpoint}';
+\$CFG->wwwroot   = 'http://${dns_name}';
 \$CFG->dataroot  = '/var/moodledata';
 \$CFG->admin     = 'admin';
 \$CFG->session_handler_class = '\core\session\redis';
